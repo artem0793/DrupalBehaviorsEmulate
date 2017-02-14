@@ -38,7 +38,7 @@
   }
 
   $(function() {
-    attach($document);
+    attach(document);
   });
 
   $document.ajaxSuccess(function(event, request, settings) {
